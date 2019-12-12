@@ -50,6 +50,16 @@ class Main(QMainWindow, Ui_MainWindow):
 
         self.MRI = DFT()
 
+    def compute_histogram(self,image):
+
+        hist = [0] * 256
+        r, c = image.shape
+
+        for i in range(r):
+            for j in range(c):
+                hist[image[i, j]] = hist[image[i, j]] + 1
+
+        return hist
 
     def cutoffLabel(self,value):
         self.cutoffValue = float(value)/100
@@ -129,6 +139,8 @@ class Main(QMainWindow, Ui_MainWindow):
         try:
             self.inputHist.clear()
             self.resultHist.clear()
+            self.inputImgSI.clear()
+            self.outImgSI.clear()
         except:
             print("ERROR!!!")
 
@@ -190,7 +202,17 @@ class Main(QMainWindow, Ui_MainWindow):
         img = self.MRI.shiftedDFT(img)
         kSpaceImgOut = self.MRI.prepareOutput(img) # Fourier transform Output with Cutoff
         cv2.imwrite(os.path.join(outputDir2,'kSpaceImg.jpg'),kSpaceImgOut)
-        # kSpaceImgOut = cv2.imread(outputDir2 + '/kSpaceImg.jpg', 0)
+
+        kSpaceImgOut = cv2.imread(outputDir2 + '/kSpaceImg.jpg', 0)
+        inHist = self.compute_histogram(kSpaceImgOut)
+        # TO COMPUTE SI AND DISPLAY
+        plt.clf()
+        inHist_fig = plt.plot(inHist)
+        plt.savefig(outputDir2 + '/Input_SI_Graph.png')
+        self.pixmapInSI = QPixmap(outputDir2 + '/Input_SI_Graph.png')
+        self.inputImgSI.setPixmap(self.pixmapInSI.scaled(self.inputImgSI.width(), self.inputImgSI.height(), QtCore.Qt.KeepAspectRatio))
+        self.inputImgSI.setAlignment(QtCore.Qt.AlignCenter)
+
         self.pixmapInHist = QPixmap(outputDir2 + '/kSpaceImg.jpg')
         self.inputHist.setPixmap(self.pixmapInHist.scaled(self.inputHist.width(), self.inputHist.height(), QtCore.Qt.KeepAspectRatio))
         self.inputHist.setAlignment(QtCore.Qt.AlignCenter)
@@ -211,9 +233,19 @@ class Main(QMainWindow, Ui_MainWindow):
             self.resultHist.setAlignment(QtCore.Qt.AlignCenter)
 
             outImgCut = self.MRI.revertDFT(kSpaceImgCut)
+
             outImgCut = self.MRI.prepareFinalOutput(outImgCut) #
             cv2.imwrite(os.path.join(outCartesianPath,'kSpaceImgCut.jpg'),outImgCut)
-            # outImgCut = cv2.imread(outCartesianPath + 'kSpaceImgCut.jpg')
+
+            outImgCut = cv2.imread(outCartesianPath + 'kSpaceImgCut.jpg',0)
+            plt.clf()
+            outHist = self.compute_histogram(outImgCut)
+            inHist_fig = plt.plot(outHist)
+            plt.savefig(outCartesianPath + '/Output_SI_Graph.png')
+            self.pixmapOutSI = QPixmap(outCartesianPath + '/Output_SI_Graph.png')
+            self.outImgSI.setPixmap(self.pixmapOutSI.scaled(self.outImgSI.width(), self.outImgSI.height(), QtCore.Qt.KeepAspectRatio))
+            self.outImgSI.setAlignment(QtCore.Qt.AlignCenter)
+
             self.pixmapOut = QPixmap(outCartesianPath + 'kSpaceImgCut.jpg')
             # self.outPic.setScaledContents(True)
             self.outPic.setPixmap(self.pixmapOut.scaled(self.outPic.width(), self.outPic.height(), QtCore.Qt.KeepAspectRatio))
@@ -235,7 +267,15 @@ class Main(QMainWindow, Ui_MainWindow):
             outImgCut = self.MRI.revertDFT(kSpaceImgCut)
             outImgCut = self.MRI.prepareFinalOutput(outImgCut) #
             cv2.imwrite(os.path.join(outRadialPath,'kSpaceImgCut.jpg'),outImgCut)
-            # outImgCut = cv2.imread(outRadialPath + 'kSpaceImgCut.jpg')
+            outImgCut = cv2.imread(outRadialPath + 'kSpaceImgCut.jpg', 0)
+            outHist = self.compute_histogram(outImgCut)
+            plt.clf()
+            inHist_fig = plt.plot(outHist)
+            plt.savefig(outRadialPath + '/Output_SI_Graph.png')
+            self.pixmapOutSI = QPixmap(outRadialPath + '/Output_SI_Graph.png')
+            self.outImgSI.setPixmap(self.pixmapOutSI.scaled(self.outImgSI.width(), self.outImgSI.height(), QtCore.Qt.KeepAspectRatio))
+            self.outImgSI.setAlignment(QtCore.Qt.AlignCenter)
+
             self.pixmapOut = QPixmap(outRadialPath + 'kSpaceImgCut.jpg')
             # self.outPic.setScaledContents(True)
             self.outPic.setPixmap(self.pixmapOut.scaled(self.outPic.width(), self.outPic.height(), QtCore.Qt.KeepAspectRatio))
