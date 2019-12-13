@@ -134,6 +134,9 @@ class Main(QMainWindow, Ui_MainWindow):
         outputDir = 'Output/'
         outputDir2 = path + '/Output/'
 
+        if not os.path.exists(outputDir2):
+            os.makedirs(outputDir2)
+
         # Here we do the operation for the Cartesian function
 
         try:

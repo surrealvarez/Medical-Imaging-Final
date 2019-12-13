@@ -5,60 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="843ddc93-c87d-43c6-aeb0-95fd533a8d28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Medical Imaging Final-Project/Inputs/phantom1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Medical Imaging Final-Project/Inputs/phantom2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Medical Imaging Final-Project/Output/kSpaceImg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Medical Imaging Report.pdf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/Analysis-00.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/COLLECT-00.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/DIP7.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/DIP7.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/EXE-00.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/PKG-00.pkg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/PKG-00.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/PYZ-00.pyz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/PYZ-00.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/Tree-00.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/Tree-01.toc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/base_library.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/warn-DIP7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/PyInstaller/DIP7/xref-DIP7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Histogram_Equalization_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Histogram_Equalization_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/Histogram_Equalization_Output/histogram_equalization_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/LogT_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/LogT_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Output/LogT_Output/log_trans_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistMatching_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistMatching_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistMatching_Output/Target_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistMatching_Output/hist_matching_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistShaping_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistShaping_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistShaping_Output/Target_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/HistShaping_Output/hist_shaping_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/Histogram_Equalization_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/Histogram_Equalization_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/Histogram_Equalization_Output/histogram_equalization_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNegDrawing_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNegDrawing_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNegDrawing_Output/imgNegativeDrawing_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Color_Output/Original_Histogram_Color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Color_Output/Result_Histogram_Color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Color_Output/imgNegative_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Color_Output/imgNegative_output_Color.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/ImgNeg_Output/imgNegative_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/LogTColor_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/LogTColor_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/LogTColor_Output/log_trans_color_output.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/LogT_Output/Original_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/LogT_Output/Result_Histogram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/python/Output/LogT_Output/log_trans_output.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/Output/Cartesian_Output/Output_SI_Graph.png" afterPath="$PROJECT_DIR$/src/main/python/Output/Cartesian_Output/Output_SI_Graph.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/Output/Cartesian_Output/kSpaceImgCut.jpg" afterPath="$PROJECT_DIR$/src/main/python/Output/Cartesian_Output/kSpaceImgCut.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/Output/Input_SI_Graph.png" afterPath="$PROJECT_DIR$/src/main/python/Output/Input_SI_Graph.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/Output/Radial_Output/Output_SI_Graph.png" afterPath="$PROJECT_DIR$/src/main/python/Output/Radial_Output/Output_SI_Graph.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/Output/Radial_Output/kSpaceImgCut.jpg" afterPath="$PROJECT_DIR$/src/main/python/Output/Radial_Output/kSpaceImgCut.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/Output/kSpaceImg.jpg" afterPath="$PROJECT_DIR$/src/main/python/Output/kSpaceImg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/python/main.py" afterPath="$PROJECT_DIR$/src/main/python/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,12 +28,40 @@
           <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/python/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="242" column="42" lean-forward="true" selection-start-line="242" selection-start-column="42" selection-end-line="242" selection-end-column="42" />
+                <state relative-caret-position="735">
+                  <caret line="205" column="89" lean-forward="true" selection-start-line="205" selection-start-column="89" selection-end-line="205" selection-end-column="89" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kSpaceImgCut.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/python/Output/Radial_Output/kSpaceImgCut.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="kSpaceImg.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/python/Output/kSpaceImg.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="phantom1.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/python/Inputs/phantom1.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="phantom2.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/python/Inputs/phantom2.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
@@ -104,8 +86,8 @@
           <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../Project-Final/src/main/python/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="184" column="26" lean-forward="true" selection-start-line="184" selection-start-column="26" selection-end-line="184" selection-end-column="26" />
+                <state relative-caret-position="900">
+                  <caret line="198" column="41" lean-forward="false" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -118,7 +100,7 @@
                   <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
-                    <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
+                    <marker date="1576213437548" expanded="true" signature="6218:6289" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -174,6 +156,7 @@
       <find>cv2</find>
       <find>output</find>
       <find>compute</find>
+      <find>exists</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,6 +226,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FInal-MedImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FInal-MedImg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="Inputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FInal-MedImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FInal-MedImg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="Output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FInal-MedImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FInal-MedImg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="Output" type="462c0819:PsiDirectoryNode" />
+              <item name="Radial_Output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -385,26 +393,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/python/histogram_shaping.py" />
-    <entry file="file://$PROJECT_DIR$/src/main/python/image_negative.py" />
-    <entry file="file://$PROJECT_DIR$/src/main/python/gamma_transformation.py" />
-    <entry file="file://$PROJECT_DIR$/src/main/python/color_log_transformation.py" />
     <entry file="file://$PROJECT_DIR$/src/main/python/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -432,7 +425,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
           </folding>
         </state>
       </provider>
@@ -471,7 +463,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
           </folding>
         </state>
       </provider>
@@ -500,7 +491,6 @@
           <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
           </folding>
         </state>
       </provider>
@@ -514,7 +504,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
           </folding>
         </state>
       </provider>
@@ -537,7 +526,6 @@
           <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
           </folding>
         </state>
       </provider>
@@ -590,22 +578,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/python/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1576194383738" expanded="true" signature="6138:6209" ph="..." />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Output/Radial_Output/Output_SI_Graph.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Inputs/phantom2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Output/kSpaceImg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Inputs/phantom1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/Output/Radial_Output/kSpaceImgCut.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Project-Final/src/main/python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="184" column="26" lean-forward="true" selection-start-line="184" selection-start-column="26" selection-end-line="184" selection-end-column="26" />
+        <state relative-caret-position="900">
+          <caret line="198" column="41" lean-forward="false" selection-start-line="198" selection-start-column="41" selection-end-line="198" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/python/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="205" column="89" lean-forward="true" selection-start-line="205" selection-start-column="89" selection-end-line="205" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
